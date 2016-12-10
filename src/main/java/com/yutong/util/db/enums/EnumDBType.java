@@ -11,8 +11,11 @@ public enum EnumDBType {
     /** oracle */
     ORACLE("oracle", "oracle.jdbc.driver.OracleDriver"),
 
-    /** mysql */
-    MYSQL("mysql", "com.mysql.cj.jdbc.Driver");
+    /** mysql 驱动版本5 */
+    MYSQL_5("mysql_5", "com.mysql.jdbc.Driver"),
+
+    /** mysql 驱动版本6 */
+    MYSQL_6("mysql_6", "com.mysql.cj.jdbc.Driver");
 
     /** 名称 */
     private String name;
